@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="lblmensage" prefHeight="200" prefWidth="320" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication1.FXMLDocumentController">
+    <children>
+        <Button fx:id="btnClick" layoutX="125.0" layoutY="88.0" onAction="#handleButtonAction" text="me toque " />
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Label fx:id="texto" layoutX="72.0" layoutY="34.0" text="uma mensagem" textAlignment="CENTER" textFill="RED">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>
